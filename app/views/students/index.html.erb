@@ -2,5 +2,5 @@
 <p>views/students/index.html.erb</p>
 
 <% @students.each do |student | %>
-  <%= student.first_name %>, <%=student.last_name %>
+  <%= student.to_s %>
 <% end %>
